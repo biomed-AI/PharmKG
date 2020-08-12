@@ -8,12 +8,12 @@ import re
 
 INVERSE_SUFFIX = '_inverse'
 
-dataset = 'pharmKG-8k'
-train_path = f'../data/{dataset}/dglke/train.tsv'
-valid_path = f'../data/{dataset}/dglke/valid.tsv'
-test_path = f'../data/{dataset}/dglke/test.tsv'
+dataset = 'PharmKG'
+train_path = f'../../data/{dataset}/train.tsv'
+valid_path = f'../../data/{dataset}/valid.tsv'
+test_path = f'../../data/{dataset}/test.tsv'
 
-if dataset == 'pharmKG-8k':
+if dataset == 'PharmKG':
     _num_entities = 7601
     _num_relations = 28
 elif dataset == 'hetionet':
