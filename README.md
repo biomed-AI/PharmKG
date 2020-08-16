@@ -7,7 +7,7 @@ The code was partly built based on [Pykeen](https://github.com/pykeen/pykeen) an
 ## Overview
 PharmKG is a multi-relational, attributed biomedical knowledge graph, comsed of more than 500 thousands individual interconnectons between genes, drugs and diseases, with 29 relation types over a vocabulary of ~8000 disambiguated entites.
 
-![PharmKG](img/pharmkg.jpg)
+![PharmKG](pharmkg.jpg)
 <!-- ### (Result) -->
 
 ## Installation
