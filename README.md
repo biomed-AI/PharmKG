@@ -1,12 +1,14 @@
 # PharmKG
 
-The code for our paper: ***
+The code for the paper: PharmKG -- A Dedicate Knowledge Graph Benchmark for Biomedical Data Mining
 
-The code was built based on pykeen (https://github.com/pykeen/pykeen). Thanks a lot for their code sharing!
+The code was partly built based on [Pykeen](https://github.com/pykeen/pykeen) and [KG-reeval](https://github.com/svjan5/kg-reeval). Thanks a lot for their code sharing!
 
 ## Overview
+PharmKG is a multi-relational, attributed biomedical knowledge graph, comsed of more than 500 thousands individual interconnectons between genes, drugs and diseases, with 29 relation types over a vocabulary of ~8000 disambiguated entites.
 
-### (Result)
+![PharmKG](img/pharmkg.jpg)
+<!-- ### (Result) -->
 
 ## Installation
 
@@ -15,6 +17,7 @@ Under the "PharmKG-D/model/pykeen/pykeen" directory, type `python setup.py insta
 ## Dataset
 
 Run code `python PharmKG-D/data/preprocess.py`
+
 
 ## Baselines
 
@@ -28,11 +31,11 @@ Run code `python PharmKG-D/data/preprocess.py`
 
 Run code `python PharmKG-D/model/pykeen/train.py --model <model_name> --save_path <path>` under the root directory of this repository.  `<model_name>` is name of the model you are going to train. `<path>` is the path to a json file containing the output results.
 
-### KBAT
+### Neural network-based method
 
 #### Model
 
-`ConvE`, `ConvKB`
+`ConvE`, `ConvKB`, `RGCN`, `HRGAT`
 
 #### ConvE
 
@@ -42,11 +45,15 @@ Run code `sh PharmKG-D/model/ConvE/run.sh`
 
 
 
-### HRGAT
+#### RGCN
+
+#### HRGAT
+
+<!-- ### Hyperparameter Optimization
+
+We used default hyperparameters in package `pykeen`. If you want to try , please modify the hyperparameters in file `PharmK-D/model/pykeen/train.py`.  -->
 
 
-
-### Hyperparameter Optimization
-
-We used default hyperparameters in package `pykeen`. If you want ***, please modify the hyperparameters in file `PharmK-D/model/pykeen/train.py`. 
+## Sponsor info
+Initial development was supported by Aladdin Healthcare Tech and Sun Yat-sen University.
 
