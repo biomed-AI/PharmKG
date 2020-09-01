@@ -49,6 +49,8 @@ Run code `sh PharmKG-D/model/ConvE/run.sh`
 
 #### HRGAT
 
+Run code `sh PharmKG-D/model/HRGAT/run.sh`
+
 <!-- ### Hyperparameter Optimization
 
 We used default hyperparameters in package `pykeen`. If you want to try , please modify the hyperparameters in file `PharmK-D/model/pykeen/train.py`.  -->
