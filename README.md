@@ -49,6 +49,8 @@ Run code `sh PharmKG-D/model/ConvE/run.sh`
 
 #### HRGAT
 
+Please unzip the file `/PharmKG/data/PharmKG_origin.zip` and replace the file `PharmKG.csv` first
+
 Run code `sh PharmKG-D/model/HRGAT/run.sh`
 
 <!-- ### Hyperparameter Optimization
