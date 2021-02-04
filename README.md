@@ -155,6 +155,7 @@ Run code `python PharmKG-D/model/pykeen/train.py --model <model_name> --save_pat
 
 #### Training
 Model training can be started by running the following scripts:
+
 ConvE:
 ```sh
 sh PharmKG-D/model/ConvE/run.sh
