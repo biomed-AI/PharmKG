@@ -1,6 +1,6 @@
-# PharmKG
+# A Dedicated Knowledge Graph Benchmark for Biomedical Data Mining
 
-The code for the paper: PharmKG -- A Dedicated Knowledge Graph Benchmark for Biomedical Data Mining
+The code for the paper: A Dedicated Knowledge Graph Benchmark for Biomedical Data Mining
 
 The code was partly built based on [Pykeen](https://github.com/pykeen/pykeen) and [KG-reeval](https://github.com/svjan5/kg-reeval). Thanks a lot for their code sharing!
 
